@@ -24,5 +24,7 @@ def find_the_cheese(array)
 
    if !(array.include?(cheese_types.map{|n| "#{n}" }))
      return nil
+   else 
+     puts "cheddar"
    end
 end
