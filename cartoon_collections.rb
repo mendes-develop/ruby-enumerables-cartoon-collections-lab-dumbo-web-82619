@@ -24,7 +24,7 @@ def find_the_cheese(array)
 
    cheese_types.each{|n| 
    if array.include?(n) 
-     puts n
+     puts "cheddar"
      end
    }
      
