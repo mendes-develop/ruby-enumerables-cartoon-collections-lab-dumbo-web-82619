@@ -15,8 +15,8 @@ def long_planeteer_calls(array)
   array.map{|n| if (n.length) > 4
     return true
     end
-    return false
   }
+  return false
 end
 
 def find_the_cheese(array)
