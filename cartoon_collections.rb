@@ -22,9 +22,8 @@ end
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 
-   if !(cheese_types.each{|n| array.include?(n) })
-     return nil
-   else 
-     puts "cheddar"
-   end
+   if (cheese_types.each{|n| array.include?(n) 
+     puts n
+   })
+     
 end
